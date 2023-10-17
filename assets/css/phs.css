@@ -184,3 +184,63 @@ a:hover{
 .collect2_r_bot img {
     max-width: 100%;
 }
+
+.right_content{
+    width: 30%;
+    padding-left: 25px;
+}
+
+.title{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 65px;
+    text-align: center;
+    padding: 20px 0;
+    color: #f65e39;
+    font-size: 23px;
+}
+
+.time{
+    background-color: #f7f7f7;
+}
+
+.time_top{
+
+    height: 60px;
+    width: 300px;
+    margin-top: 25px;
+    margin-left: 30px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.time_top h2{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    line-height: 26px;
+    color: rgb(46, 46, 46);  
+    padding: 2px 0 0 15px;
+}
+
+.time_top p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    line-height: 26px;
+    color: gray; 
+    padding: 0 0 0 15px; 
+}
+
+.time button{
+    padding: 8px 24px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #2196f3;
+    margin-top: 20px;
+}
+
+button {
+    margin-left: 45px;
+}
