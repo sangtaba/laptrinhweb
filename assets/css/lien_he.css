@@ -289,6 +289,6 @@ input,textarea:focus {
 html{
     scroll-behavior: smooth;
 }
-.search:hover{
+/* .search:hover{
     background-color: red;
-}
+} */
