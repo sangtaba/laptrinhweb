@@ -586,9 +586,9 @@ a:hover{
 html{
     scroll-behavior: smooth;
 }
-.search:hover{
+/* .search:hover{
     background-color: red;
-}
+} */
 a{
     text-decoration: none;
 }
