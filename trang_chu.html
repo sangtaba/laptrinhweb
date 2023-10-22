@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lien he</title>
-    <link rel="stylesheet" href="./assets/css/lien_he.css">
+    <title>test</title>
+    <link rel="stylesheet" href="./assets/css/trang_chu.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
@@ -34,10 +34,10 @@
                         <a href="./listphong.html" class="y1_link">HỆ THỐNG PHÒNG</a>
                     </li>
                     <li class="y1">
-                        <a href="./tintuc.html" class="y1_link" >TIN TỨC</a>
+                        <a href="./tintuc.html" class="y1_link" style="color: black;">TIN TỨC</a>
                     </li>
                     <li class="y1">
-                        <a href="./lien_het.html" class="y1_link" style="color: black;">LIÊN HỆ</a>
+                        <a href="./lien_het.html" class="y1_link">LIÊN HỆ</a>
                     </li>
                     <li class="y1">
                         <a href="#" class="y1_link">
@@ -51,58 +51,56 @@
             </div>
         </div>
     </div>
-
-    <div class="img_lienhe">
-        <img src="./image/lien_he.png" alt="" style="width: 100%;margin-left: 0px;">
+    <div class="border"></div>
     </div>
 
+
+    <div class="container">
+        <div class="top-driver full_wight">
+
+        </div>
+    </div>
+
+
     <div class="than">
-        <div class="than1">
-            <p style="margin-top: 25px;">
-                <strong style="font-size: 16.5px;">
-                    Halo Homestay - Ngôi nhà thứ hai của bạn
-                </strong>
-            </p>
-            <p class="chu1_than1">
-                Địa chỉ: 51 Tôn Thất Đạm, Đà Nẵng
-            </p>
-            <p class="chu1_than1">
-                Hotline: 0378.812.xxx
-            </p>
-            <p class="chu1_than1">
-                Điện thoại: 0378.812.xxx
-            </p>
-            <p class="chu1_than1">
-                E-mail : khachsandemo@gmail.com
-            </p>
+
+        <div class="mySlides fade">
+            <img src="./image/anh1.png" style="width:100%">
+            <div class="text">Caption Text</div>
         </div>
 
-        <div class="than2">
-            <p>
-                <span class="text_sp_ten">
-                    <input type="text" placeholder="Tên của bạn">
-                </span>
-            </p>
-            <p>
-                <span class="text_sp_ten">
-                    <input type="text" placeholder="Địa chỉ email">
-                </span>
-            </p>
-            <p>
-                <span class="text_sp_ten">
-                    <input type="text" placeholder="Số điện thoại">
-                </span>
-            </p>
-            <p>
-                <label for="binh_luan">
-                </label>
-                <textarea name="binh_luan" id="binh_luan" cols="69" rows="7" placeholder="Nội dung liên hệ"></textarea>
-            </p>
-            <p>
-                <button type="submit" id="submitButton" class="submist">Gửi yêu cầu</button>
-            </p>
+        <div class="mySlides fade">
+            <img src="./image/anh1.png" style="width:100%">
+            <div class="text">Caption Two</div>
         </div>
-    </div>  
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+
     <div class="map">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3833.8826070409946!2d108.2006618533591!3d16.071580477357514!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421851f9f961ad%3A0x4b16a05f40d9a1e!2zNTEgVMO0biBUaOG6pXQgxJDhuqFtLCBYdcOibiBIw6AsIFRoYW5oIEtow6osIMSQw6AgTuG6tW5nIDU1MDAwMCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2sus!4v1696924914357!5m2!1svi!2sus"
@@ -243,7 +241,6 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
-
 </body>
 
 </html>
