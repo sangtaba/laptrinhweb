@@ -295,3 +295,60 @@ html{
 .search:hover{
     background-color: red;
 }
+.check_name{
+    height: 40px;
+    border: 1px solid white;
+}
+.text_sp_ten{
+    display: block;
+}
+
+.enroll{
+    color: #e74c3c;
+	position: absolute;
+	/* visibility: hidden; */
+}
+
+.than2{
+    margin-top: 30px;
+    margin-left: 30px;
+    /* display: flex; */
+    /* border: 1px solid red; */
+    height: 450px;
+    width: 50%; 
+}
+input{
+    margin-top: 1px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 1px;
+    background-color: #fff;
+    overflow: auto;
+    height: 37px;
+    width: 513px;
+    font-size: 15px;
+}
+textarea{
+    margin-top: 5px;
+    padding: 11px 11px 0 11px;
+    border: 1px solid #dddddd;
+    border-radius: 1px;
+    background-color: #fff;
+    overflow: auto;
+    font-size: 15px;
+}
+input,textarea:focus {
+    outline: none;
+    border: 1px solid #dddddd;
+    box-shadow: inset 1px 1px 2px rgba(0,0,0,.1);
+}
+.submist{
+    width: 135px;
+    height: 45px;
+    background-color: #f4511e;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: white;
+}
